@@ -17,7 +17,7 @@ submit.addEventListener("click", (e) => {
   e.preventDefault();
 
   validate(randomNumber, Number(userInput.value));
- if (userInput.value == 0 || isNaN(userInput.value) || userInput.value > 100) {
+  if (userInput.value == 0 || isNaN(userInput.value) || userInput.value > 100) {
     alert("Enter valid Number (or) enter value between 1 to 100.");
   } else {
     storeValue();
