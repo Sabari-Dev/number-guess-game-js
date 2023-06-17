@@ -57,7 +57,7 @@ submit.addEventListener("click", (e) => {
   function gameOver(number) {
     if (number === 0) {
       sugMessage.classList.remove("show-gameSug");
-      sugMessage.textContent = `You attempts is over!`;
+      sugMessage.textContent = `You attempts is over!The number is ${randomNumber}`;
       sugMessage.classList.add("show-gameSug");
       gameMessage.textContent = `GameOver`;
       gameMessage.classList.add("show-gameSug");
